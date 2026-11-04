@@ -36,6 +36,6 @@ app.get('/features/autofill_item', function(req, res) {
 
 
 //start the web app
-app.listen(8080, function () {
+app.listen(process.env.PORT || 8080;, function () {
 	console.log('App listening on port 8080!');
 });
